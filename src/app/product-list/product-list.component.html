@@ -9,7 +9,17 @@
 <p *ngIf = "product.description" >
   Desctription: {{product.description}}
 </p>
+<button (click)="share()">Share</button>
+
+<app-product-alert
+[product]='product'
+>
+
+</app-product-alert>
+
 </div>
+
+
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
