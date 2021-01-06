@@ -1,7 +1,7 @@
 <h2>Product details<h2>
 
   <div *ngIf = "product">
-      {{product.name}}
-      {{product.description}}
-      {{product.price}}
+      <h3>{{product.name}}</h3>
+      <h4>{{product.description}}</h4>
+      <p>{{product.price | currency}}</p>
   </div>
