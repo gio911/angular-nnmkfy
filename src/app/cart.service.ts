@@ -26,7 +26,7 @@ return this.items;
 
 getShippingPrices(){
 
-return this.http.get('/asserts/shipping.json')
+return this.http.get('/assets/shipping.json')
 
 }
 
